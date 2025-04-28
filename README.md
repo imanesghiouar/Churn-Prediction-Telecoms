@@ -54,15 +54,17 @@ These evaluation metrics help in selecting the best performing model. Typically,
 - Machine learning models are saved in `.pkl` format,
 - The Keras model is saved in `.h5` format.
 
----
+Installation and Running
+To install and run the project, clone the repository, create a virtual environment, install the requirements listed in requirements.txt, and then run the full pipeline with python scripts/run_pipeline.py. You can also use the Jupyter notebooks for more detailed exploration or testing.
 
-## **Installation and Running**
+Requirements
+The key Python packages used in this project are PySpark, Pandas, Scikit-learn, TensorFlow, Keras, Matplotlib, Seaborn, and Joblib. All dependencies are listed in the requirements.txt file.
 
-To install and run the project:
-1. **Clone the repository**.
-2. **Create a virtual environment**.
-3. **Install the requirements** listed in `requirements.txt`.
-4. Run the full pipeline with:
+Notes
+This project highlights how PySpark and Pandas can be combined for flexible big data and small data handling, and how Keras can easily integrate into such a pipeline for building deep learning models. The pipeline is modular and scalable, allowing easy future improvements such as hyperparameter tuning, adding feature selection techniques, or experimenting with deeper neural network architectures.
 
-   ```bash
-   python scripts/run_pipeline.py
+Contributing
+Contributions are welcome! You can fork the repository, create a new branch, and submit a pull request. Improvements related to feature engineering, model optimization, or deep learning enhancements are appreciated.
+
+Author
+Built by Imane Sghiouar,Engineering Student, passionate about Data Science, Machine Learning, Deep Learning, and Big Data technologies.
