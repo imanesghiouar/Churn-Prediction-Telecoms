@@ -1,4 +1,4 @@
-Churn Prediction – Télécoms
+#Churn Prediction – Télécoms
 
 Project Overview
 This project is a complete machine learning pipeline built with PySpark, Pandas, and Keras for predicting customer churn in the telecommunications sector. It includes data preprocessing, exploratory data analysis, feature engineering, model training (Logistic Regression, Random Forest, and Neural Networks), and final evaluation.
